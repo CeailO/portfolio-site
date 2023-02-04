@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles";
 
 type Props = {};
 
-export default function particleGeneration({}: Props) {
+export default function ParticleGeneration({}: Props) {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
 
