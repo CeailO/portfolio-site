@@ -4,7 +4,7 @@ type Props = {
   directionLeft?: boolean;
 };
 
-export default function skill({ directionLeft }: Props) {
+export default function Skill({ directionLeft }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img

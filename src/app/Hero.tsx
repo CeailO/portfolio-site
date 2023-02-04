@@ -3,7 +3,7 @@ import Link from "next/link";
 import BackgroundCircles from "./BackgroundCircles";
 type Props = {};
 
-export default function hero({}: Props) {
+export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "My handle name is @CeailO",

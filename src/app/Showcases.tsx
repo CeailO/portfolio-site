@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function showcases({}: Props) {
+export default function Showcases({}: Props) {
   const projects = [1];
 
   return (

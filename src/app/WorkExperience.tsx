@@ -3,7 +3,7 @@ import ExperienceCard from "./ExperienceCard";
 
 type Props = {};
 
-export default function workExperience({}: Props) {
+export default function WorkExperience({}: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
