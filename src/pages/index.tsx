@@ -6,7 +6,7 @@ import ParticleGeneration from "@/app/ParticleGeneration";
 import Showcases from "@/app/Showcases";
 import Skills from "@/app/Skills";
 import WorkExperience from "@/app/WorkExperience";
-import { Head } from "next/document";
+import Head from "next/head";
 
 export default function Home() {
   return (

@@ -37,9 +37,9 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-sm">
-          I'm CeailO. My history start from 1998 where I was born in Johor Bahru
+          I am CeailO. My history start from 1998 where I was born in Johor Bahru
           in the state of Johor, Malaysia. I was raised and living within frugal
-          environment during my childhood. At the time, my family can't afford
+          environment during my childhood. At the time, my family cannot afford
           to provide me any technical education. I do appreciate the effort from
           my mother to provide us siblings gospel education. All of those never
           in naught for shaping us to become useful person in society. Until I
