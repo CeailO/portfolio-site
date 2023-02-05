@@ -12,41 +12,22 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className="p-25 flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
-      <motion.img
-        initial={{
-          y: -100,
-          opacity: 0,
-        }}
-        transition={{ duration: 1.2 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src="https://res.cloudinary.com/djdcf9qoq/image/upload/v1675444940/logo-bg_komdee.png"
-        alt="company-logo"
-      />
-      <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">CeailO</h4>
-        <p className="font-light text-2xl mt-1">Founder</p>
-        <div className="flex space-x-2 my-2">
-          {/* Tech Used */}
-          <SiNextdotjs className="h-10 w-10" />
-          {/* Tech Used */}
-          <SiTypescript className="h-10 w-10" />
-          {/* Tech Used */}
-          <SiReact className="h-10 w-10" />
+    <div className="group h-96 w-1/3 [perspective:1000px] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-300">
+      <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+        <div className="absolute inset-0 items-center">
+          <img
+            className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 opacity-50"
+            src="https://res.cloudinary.com/djdcf9qoq/image/upload/v1675634838/supertree_nsfcga.jpg"
+          />
         </div>
-        <p className="uppercase py-5 text-gray-300">Lifetime</p>
-        <ul className="list-disc space-y-4 ml-5 text-md px-10">
-          <li>Actively learning Data Structure and Machine Learning</li>
-          <li>Working on with Thesis Project and Written Dissertation</li>
-          <li>Media Content Creator for Personal Project</li>
-          <li>
-            Experienced with Express, Springboot, and Next.js framework so far
-          </li>
-          <li>So much to unveil</li>
-        </ul>
+        <div className="absolute inset-0 h-full w-full rounded-xl bg-black/70 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+          <div className="flex min-h-full flex-col items-center justify-center">
+            <h1 className="text-3xl font-bold">CeailO</h1>
+            <p className="text-lg">Founder</p>
+            <p className="text-base">.....</p>
+          </div>
+        </div>
       </div>
-    </article>
+    </div>
   );
 }
