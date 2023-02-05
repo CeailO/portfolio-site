@@ -17,7 +17,7 @@ export default function Contact({}: Props) {
     window.location.href = `mailto:s46390@student.umt.edu.my?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row w-1/2 max-w-7xl px-10 justify-evenly mx-auto items-center">
+    <div className="h-screen flex relative flex-col text-center md:flex-row max-w-7xl justify-evenly mx-auto items-center">
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           Interesting to collaborate?{" "}
