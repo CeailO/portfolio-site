@@ -28,7 +28,7 @@ export default function Contact({}: Props) {
             Sent me inquiry
           </span>
         </h4>
-        <div className="space-y-10">
+        <div className="space-y-4">
           <div className="flex items-center space-x-5 justify-center">
             <SiTelegram className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+60 11 6079 0057</p>
