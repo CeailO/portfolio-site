@@ -23,7 +23,7 @@ export default function About({}: Props) {
           x: 0,
         }}
         viewport={{ once: true }}
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
+        className="flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
         src="https://res.cloudinary.com/djdcf9qoq/image/upload/c_thumb,h_1173,w_1400,y_0/v1675413809/profile-placeholder_sfyvei.jpg"
         alt="profile-placeholder"
       />
@@ -33,7 +33,7 @@ export default function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
         </h4>
-        <p className="text-sm">
+        <p className="text-sm font-semibold">
           I am CeailO. My history start from 1998 where I was born in Johor
           Bahru in the state of Johor, Malaysia. I was raised and living within
           frugal environment during my childhood. At the time, my family cannot
