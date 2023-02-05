@@ -19,29 +19,29 @@ export default function Contact({}: Props) {
   return (
     <div className="h-screen flex relative flex-col text-center md:flex-row max-w-7xl justify-evenly mx-auto items-center">
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className="text-3xl font-semibold text-center">
           Interesting to collaborate?{" "}
           <span className="decoration-[#f7ab0a]/50 underline">
             Sent me inquiry
           </span>
         </h4>
-        <div className="space-y-4">
+        <div className="space-y-2">
           <div className="flex items-center space-x-5 justify-center">
             <SiTelegram className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+60 11 6079 0057</p>
+            <p className="text-xl">+60 11 6079 0057</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <SiDiscord className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Barusu#5859</p>
+            <p className="text-xl">Barusu#5859</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <SiGmail className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">s46390@student.umt.edu.my</p>
+            <p className="text-xl">s46390@student.umt.edu.my</p>
           </div>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 mx-auto"
         >
           <div className="flex space-x-2">
             <input
@@ -70,7 +70,7 @@ export default function Contact({}: Props) {
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#f7ab0a] py-5 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>

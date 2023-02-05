@@ -12,7 +12,7 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <div className="group h-96 w-1/3 [perspective:1000px] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-300">
+    <div className="group h-96 w-80 [perspective:1000px] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-300">
       <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className="absolute inset-0 items-center">
           <img

@@ -27,7 +27,7 @@ export default function About({}: Props) {
         src="https://res.cloudinary.com/djdcf9qoq/image/upload/c_thumb,h_1173,w_1400,y_0/v1675413809/profile-placeholder_sfyvei.jpg"
         alt="profile-placeholder"
       />
-      <div className="space-y-3 px-0 md:px-10">
+      <div className="space-y-3 px-0 md:px-10 z-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
