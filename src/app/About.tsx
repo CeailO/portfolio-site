@@ -10,7 +10,7 @@ export default function About({}: Props) {
       transition={{ duration: 1.5 }}
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[2em] translate-x-2.5 text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
@@ -37,20 +37,21 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-sm">
-          I am CeailO. My history start from 1998 where I was born in Johor Bahru
-          in the state of Johor, Malaysia. I was raised and living within frugal
-          environment during my childhood. At the time, my family cannot afford
-          to provide me any technical education. I do appreciate the effort from
-          my mother to provide us siblings gospel education. All of those never
-          in naught for shaping us to become useful person in society. Until I
-          reach sophomore years in highschool, I found my passion mostly in
-          Computer Science field, thus I pursue the study. Most of success I had
-          today came from the failure I paved. My mission is to help people that
-          have been stumbled, foraging their own lives and harness the fruit of
-          success from their effort. Aside from that, I want to learn about new
-          and foreign things for self-sustaining in this competitive world and
-          stand together along with great people who has done so much in their
-          life. Thus, I chose to embrace software engineering world.
+          I am CeailO. My history start from 1998 where I was born in Johor
+          Bahru in the state of Johor, Malaysia. I was raised and living within
+          frugal environment during my childhood. At the time, my family cannot
+          afford to provide me any technical education. I do appreciate the
+          effort from my mother to provide us siblings gospel education. All of
+          those never in naught for shaping us to become useful person in
+          society. Until I reach sophomore years in highschool, I found my
+          passion mostly in Computer Science field, thus I pursue the study.
+          Most of success I had today came from the failure I paved. My mission
+          is to help people that have been stumbled, foraging their own lives
+          and harness the fruit of success from their effort. Aside from that, I
+          want to learn about new and foreign things for self-sustaining in this
+          competitive world and stand together along with great people who has
+          done so much in their life. Thus, I chose to embrace software
+          engineering world.
         </p>
       </div>
     </motion.div>
