@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="logo.ico" />
       </Head>
-      <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+      <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
         {/* Header */}
         <Header />
         {/* Hero */}
@@ -33,11 +33,11 @@ export default function Home() {
           <WorkExperience />
         </section>
         {/* Skills */}
-        <section id="experience" className="snap-center">
+        <section id="skills" className="snap-start">
           <Skills />
         </section>
         {/* Projects */}
-        <section id="experience" className="snap-start">
+        <section id="showcases" className="snap-start">
           <Showcases />
         </section>
         {/* Contact */}
