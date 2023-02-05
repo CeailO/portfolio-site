@@ -23,7 +23,7 @@ export default function About({}: Props) {
           x: 0,
         }}
         viewport={{ once: true }}
-        className="flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
         src="https://res.cloudinary.com/djdcf9qoq/image/upload/c_thumb,h_1173,w_1400,y_0/v1675413809/profile-placeholder_sfyvei.jpg"
         alt="profile-placeholder"
       />
