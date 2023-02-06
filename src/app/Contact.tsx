@@ -18,7 +18,7 @@ export default function Contact({}: Props) {
   };
   return (
     <div className="h-screen flex relative flex-col text-center md:flex-row max-w-7xl justify-evenly mx-auto items-center">
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10 mx-auto">
         <h4 className="text-3xl font-semibold text-center">
           Interesting to collaborate?{" "}
           <span className="decoration-[#f7ab0a]/50 underline">
