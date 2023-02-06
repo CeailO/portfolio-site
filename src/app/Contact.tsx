@@ -70,7 +70,7 @@ export default function Contact({}: Props) {
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a] py-5 rounded-md text-black font-bold text-lg"
+            className="bg-[#f7ab0a] py-5 text-black font-bold text-lg"
           >
             Submit
           </button>
