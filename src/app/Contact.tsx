@@ -17,13 +17,7 @@ export default function Contact({}: Props) {
     window.location.href = `mailto:s46390@student.umt.edu.my?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
-    <div className="h-screen flex flex-row flex-wrap items-center mx-auto">
-      <h4 className="text-4xl lg:text-5xl font-semibold mx-auto">
-        Interested to collaborate?{" "}
-        <span className="decoration-[#f7ab0a]/50 underline">
-          Sent me inquiry
-        </span>
-      </h4>
+    <div className="h-screen flex items-center">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col space-y-2 mx-auto"
