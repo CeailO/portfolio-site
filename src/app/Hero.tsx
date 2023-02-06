@@ -21,10 +21,10 @@ export default function Hero({}: Props) {
         src={
           "https://res.cloudinary.com/djdcf9qoq/image/upload/v1675443838/building-01-1_hmu7dr.png"
         }
-        alt={"profile-image"}
+        alt="profile-image"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[2em] translate-x-2.5">
+        <h2 className="text-sm uppercase text-gray-500 tracking-[2em] translate-x-2.5">
           Developer
         </h2>
         <h1 className="text-4xl lg:pt-3 lg:text-5xl font-semibold px-10">

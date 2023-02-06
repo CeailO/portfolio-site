@@ -47,8 +47,7 @@ export default function About({}: Props) {
           and harness the fruit of success from their effort. Aside from that, I
           want to learn about new and foreign things for self-sustaining in this
           competitive world and stand together along with great people who has
-          done so much in their life. Thus, I chose to embrace software
-          engineering world.
+          done so much in their life.
         </p>
       </div>
     </motion.div>
