@@ -10,7 +10,10 @@ export default function Skills({}: Props) {
       transition={{ duration: 1.5 }}
       className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="absolute top-36 break-words uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3
+        id="hover-content"
+        className="lg:[writing-mode:vertical-lr] lg:rotate-180 top-36 break-words uppercase tracking-[3px] text-gray-500 text-sm"
+      >
         Hover over a skill for currently proficiency
       </h3>
       <motion.div

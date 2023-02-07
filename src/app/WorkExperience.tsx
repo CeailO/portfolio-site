@@ -9,9 +9,8 @@ export default function WorkExperience({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex flex-col justify-center mx-auto max-w-sm lg:items-center"
+      className="h-screen flex flex-col justify-center mx-auto max-w-sm"
     >
-      <div className="">
         <ul className="gap-5 flex overflow-y-hidden overflow-x-scroll snap-mandatory snap-x scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
           <li className="snap-center">
             <ExperienceCard />
@@ -32,7 +31,6 @@ export default function WorkExperience({}: Props) {
             <ExperienceCard />
           </li>
         </ul>
-      </div>
     </motion.div>
   );
 }
