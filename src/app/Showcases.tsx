@@ -21,6 +21,7 @@ export default function Showcases({}: Props) {
           items-center justify-center p-20 md:p-44 h-screen"
           >
             <motion.img
+              loading="lazy"
               initial={{ y: -200, opacity: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2 }}

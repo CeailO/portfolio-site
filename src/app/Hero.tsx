@@ -17,6 +17,7 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img
+        loading="lazy"
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src={
           "https://res.cloudinary.com/djdcf9qoq/image/upload/v1675443838/building-01-1_hmu7dr.png"

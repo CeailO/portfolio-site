@@ -11,6 +11,7 @@ export default function About({}: Props) {
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
       <motion.img
+        loading="lazy"
         initial={{
           x: -200,
           opacity: 0,

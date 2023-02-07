@@ -9,6 +9,7 @@ export default function ExperienceCard({}: Props) {
       <div className="relative h-full w-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className="absolute inset-0 items-center">
           <img
+            loading="lazy"
             className="h-full w-full object-cover shadow-xl shadow-black/40 opacity-50"
             src="https://res.cloudinary.com/djdcf9qoq/image/upload/v1675634838/supertree_nsfcga.jpg"
             alt="experience-card"
@@ -20,6 +21,7 @@ export default function ExperienceCard({}: Props) {
               <div className="col-span-1 pb-5">
                 {" "}
                 <img
+                  loading="lazy"
                   className="relative rounded-full h-16 w-16 object-cover"
                   src="https://res.cloudinary.com/djdcf9qoq/image/upload/v1675444940/logo-bg_komdee.png"
                   alt="company-logo"

@@ -6,6 +6,7 @@ export default function Skill() {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
+        loading="lazy"
         initial={{
           opacity: 0,
         }}
